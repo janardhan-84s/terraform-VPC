@@ -11,7 +11,7 @@ variable "cidr_block" {
     default = "10.0.0.0/16"
 }
 
-variable "vpc_tags" {
+variable "vpc_tags" { # users also provide their tags
     type = map(string)
     default = {}
 }

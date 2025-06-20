@@ -1,4 +1,4 @@
-
+# This is the VPC peering connection for connecting two VPC's at a time
 resource "aws_vpc_peering_connection" "default" {
   count = var.is_peering_required ? 1 : 0
 
